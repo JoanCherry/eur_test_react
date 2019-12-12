@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on displaying players component Should render. 1`] = `
+<DisplayAll
+  info={false}
+  onClick={[MockFunction]}
+  text="Où sont-ils ?"
+>
+  <div>
+    <Button
+      id="hideShowDisplay"
+      info={false}
+      onClick={[Function]}
+      text="Et les joueurs du mois sont..."
+    >
+      <button
+        className="buttonStyleMiddle"
+        info="false"
+        onClick={[Function]}
+      >
+        Et les joueurs du mois sont...
+      </button>
+    </Button>
+  </div>
+</DisplayAll>
+`;

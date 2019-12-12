@@ -1,0 +1,24 @@
+.componentStyle {
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 10px;
+    margin: 2% 20%;
+    color: #141c4d;
+}
+
+.displayingPlayers {
+    display: flex; 
+    flex-direction: row;
+}
+
+.marginStyle {
+    margin: auto; 
+    padding: 1%;
+}
+
+.styleList {
+    list-style-type: none;
+    padding: 0;
+    margin-right: auto;
+}
+

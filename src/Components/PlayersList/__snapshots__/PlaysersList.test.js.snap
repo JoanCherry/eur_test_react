@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list of players infos should  receives data and make list 1`] = `
+<PlayersList
+  datas={
+    Array [
+      Object {
+        "data": Object {
+          "age": 33,
+          "height": 185,
+          "last": Array [
+            1,
+            0,
+            0,
+            0,
+            1,
+          ],
+          "points": 1982,
+          "rank": 1,
+          "weight": 85000,
+        },
+        "firstname": "Rafael",
+        "lastname": "Nadal",
+        "picture": "https://i.eurosport.com/_iss_/person/pp_clubteam/large/435121.jpg",
+        "sex": "M",
+        "shortname": "R.NAD",
+      },
+      Object {
+        "data": Object {
+          "age": 23,
+          "height": 195,
+          "last": Array [
+            1,
+            1,
+            0,
+            0,
+            1,
+          ],
+          "points": 1992,
+          "rank": 10,
+          "weight": 88000,
+        },
+        "firstname": "Michael",
+        "lastname": "Chang",
+        "picture": "https://i.eurosport.com/_iss_/person/pp_clubteam/large/435121.jpg",
+        "sex": "M",
+        "shortname": "M.CHAN",
+      },
+    ]
+  }
+>
+  <div
+    className="componentStyle"
+    key="R.NAD0"
+  >
+    <h2
+      className="marginStyle"
+    >
+      R.NAD
+    </h2>
+    <div
+      className="displayingPlayers"
+    >
+      <img
+        alt="Rafael Nadal"
+        className="marginStyle"
+        src="https://i.eurosport.com/_iss_/person/pp_clubteam/large/435121.jpg"
+      />
+      <ul
+        className="styleList"
+      >
+        <li>
+          Nom: 
+          Rafael
+           
+          Nadal
+        </li>
+        <li>
+          Rang: 
+          1
+        </li>
+        <li>
+          Points gagn
+          é
+          s: 
+          1982
+        </li>
+        <li>
+          Age: 
+          33
+           ans
+        </li>
+        <li>
+          Poids: 
+          85
+           Kg
+        </li>
+        <ul
+          className="styleList"
+        >
+          Derniers r
+          é
+          sultats:
+          <li>
+            Gagn
+            é
+            s: 
+            2
+          </li>
+          <li>
+            Perdus: 
+            3
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="componentStyle"
+    key="M.CHAN1"
+  >
+    <h2
+      className="marginStyle"
+    >
+      M.CHAN
+    </h2>
+    <div
+      className="displayingPlayers"
+    >
+      <img
+        alt="Michael Chang"
+        className="marginStyle"
+        src="https://i.eurosport.com/_iss_/person/pp_clubteam/large/435121.jpg"
+      />
+      <ul
+        className="styleList"
+      >
+        <li>
+          Nom: 
+          Michael
+           
+          Chang
+        </li>
+        <li>
+          Rang: 
+          10
+        </li>
+        <li>
+          Points gagn
+          é
+          s: 
+          1992
+        </li>
+        <li>
+          Age: 
+          23
+           ans
+        </li>
+        <li>
+          Poids: 
+          88
+           Kg
+        </li>
+        <ul
+          className="styleList"
+        >
+          Derniers r
+          é
+          sultats:
+          <li>
+            Gagn
+            é
+            s: 
+            3
+          </li>
+          <li>
+            Perdus: 
+            2
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+</PlayersList>
+`;
